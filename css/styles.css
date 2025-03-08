@@ -96,6 +96,7 @@ ul{
 .section-title{
     font-size: 45px;
     font-weight: bold;
+    
     }
     .section-description{
         font-size: 18px;
@@ -122,10 +123,46 @@ font-weight: Bold;
 }
 
 .about-items{
+    display: flex;
      justify-content: space-around;
-     display: flex;
-}
-.text-center{
-    text-align: center;
 
 }
+.text-center{
+
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input [ type="text"] footer input[type="email"] footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100;
+    padding: 10px 20px ;
+    margin-bottom: 24px;
+    border: none;
+
+}
+
+.section-title{
+
+    text-align: center;
+}
+
